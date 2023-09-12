@@ -6,7 +6,7 @@ Usage:
 
  main.ts
 ```ts
-import {browserStart} from "https://raw.githubusercontent.com/nhrones/Browser/master/mod.ts"
+import {browserStart} from "https://raw.githubusercontent.com/nhrones/Browser/master/browser.ts"
 
 const Port = 80
 // first, you would start a dev server on port 80 here ...
