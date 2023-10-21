@@ -2,17 +2,24 @@
 
 This simple utility is used to launch a browser process.
 
-Usage:
+## Usage:
+Import this utility in your server, and call browserStart at the end of the file. 
 
- main.ts
 ```ts
+//server.ts
 import {browserStart} from "https://raw.githubusercontent.com/nhrones/Browser/master/browser.ts"
 
-const Port = 80
-// first, you would start a dev server on port 80 here ...
+const Port = 8080
 
-// then, open the browser at `http:localhost:80`
+// first, you would start a dev server on port 8080 here ...
+Deno.serve({ port: port }, (request: Request): Promise<Response> {
+   // ...
+   // do server stuph
+   // ...
+})
+
+// then, you will open the browser at `http://localhost:8080`
 browserStart(`http://localhost:${Port}`)
 ```
-The above assumes a web app (index.html) being served from `http:localhost:80`
+The above assumes a web app (index.html) being served from `http:localhost:8080`
 The browser will open to that url
