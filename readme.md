@@ -23,3 +23,7 @@ browserStart(`http://localhost:${Port}`)
 ```
 The above assumes a web app (index.html) being served from `http:localhost:8080`
 The browser will open to that url
+
+## Note:
+This is a very small utility with no external dependencies.    
+You may want to add the code found in **_browser.ts_**, to the end of your server.ts file. 
