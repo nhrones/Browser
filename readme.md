@@ -21,7 +21,7 @@ Deno.serve({ port: port }, (request: Request): Promise<Response> {
 // then, you will open the browser at `http://localhost:8080`
 browserStart(`http://localhost:${Port}`)
 ```
-The above assumes a web app (index.html) being served from `http:localhost:8080`
+The above assumes a web app (index.html) being served from `http:localhost:8080`    
 The browser will open to that url
 
 ## Note:
