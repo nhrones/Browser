@@ -19,5 +19,5 @@ Above code will open the browser at `http://localhost:${port}`
 ## Usage:
 To install Browser from Github:
 ```
-bun add git@github.com:nhrones/Browser.git
+bun add git@github.com:nhrones/DevTool-Browser.git
 ```
