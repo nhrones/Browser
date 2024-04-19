@@ -16,4 +16,8 @@ openWebsite(`http://localhost:${port}`)
 
 Above code will open the browser at `http://localhost:${port}`
 
-### See my Simple Bun-Util for example usage.
+## Usage:
+To install Browser from Github:
+```
+bun add git@github.com:nhrones/Browser.git
+```
